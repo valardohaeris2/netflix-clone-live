@@ -4,7 +4,7 @@ import axios from "./axios";
 import requests from "./Requests"; 
 
 function Banner() {
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState([]); 
  
   useEffect(() => {
     async function fetchData() {
